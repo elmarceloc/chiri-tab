@@ -23,7 +23,11 @@ var photos = [
     },
     {
         url: 'https://i.imgur.com/rupXp2b.png',
-        date: '24/05/2021'
+        date: '24/05/2022'
+    },
+    {
+        url: 'https://i.imgur.com/6aIxNvA.jpg',
+        date: '26/03/2022'
     }
 ];
 
