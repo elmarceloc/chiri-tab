@@ -39,9 +39,9 @@ document.getElementById('background').style.backgroundImage = `url(${photo.url})
 
 // puts the info in the DOM
 if(photo.type === 'draw'){
-    document.getElementById('note').innerHTML = `Dibujado el ${photo.date}`;
+    document.getElementById('note').innerHTML = `<img class="icon" src="img/pencil.svg"> Dibujado el ${photo.date}`;
     document.getElementById('author').innerHTML = `por ${photo.author}`;
 }else{
-    document.getElementById('note').innerHTML = `Foto tomada el ${photo.date}`;
+    document.getElementById('note').innerHTML = `<img class="icon" src="img/camera.svg"> Foto tomada el ${photo.date}`;
     
 }
