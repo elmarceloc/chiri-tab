@@ -2,8 +2,8 @@
     "author": "elmarceloc",
     "name": "Chiri Tab",
     "version": "0.1",
-    "manifest_version": 2,
-    "minimum_chrome_version": "29",
+    "manifest_version": 3,
+    "minimum_chrome_version": "88",
     "icons": {
         "16": "icon16.png",
         "48": "icon48.png",
