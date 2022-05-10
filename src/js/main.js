@@ -23,7 +23,7 @@ var photos = [
     },
     {
         url: 'https://i.imgur.com/rupXp2b.png',
-        date: '24/05/2022'
+        date: '26/03/2022'
     },
     {
         url: 'https://i.imgur.com/6aIxNvA.jpg',
@@ -42,6 +42,9 @@ if(photo.type === 'draw'){
     document.getElementById('note').innerHTML = `<img class="icon" src="img/pencil.svg"> Dibujado el ${photo.date}`;
     document.getElementById('author').innerHTML = `por ${photo.author}`;
 }else{
+    const formattedDate = photo.date.split('/').reverse().join('-')
+    const age = getAge(formattedDate)
+    console.log(formattedDate,age)
     document.getElementById('note').innerHTML = `<img class="icon" src="img/camera.svg"> Foto tomada el ${photo.date}`;
-    
+    document.getElementById('author').innerHTML = `hace ${age} <3`;
 }

@@ -1,7 +1,7 @@
 {
     "author": "elmarceloc",
     "name": "Chiri Tab",
-    "version": "0.1",
+    "version": "0.2",
     "manifest_version": 3,
     "minimum_chrome_version": "88",
     "icons": {
