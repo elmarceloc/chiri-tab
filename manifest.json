@@ -1,10 +1,15 @@
 {
-    "author": "Jordi López",
-    "name": "New Tab",
+    "author": "elmarceloc",
+    "name": "Chiri Tab",
     "version": "0.1",
     "manifest_version": 2,
     "minimum_chrome_version": "29",
-    "description": "A boilerplate replacement for Chrome's New Tab page",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "description": "A chrome extension that shows a random image of my cat in a new tab.",
     "permissions" : ["management"],
     "chrome_url_overrides" : {
         "newtab": "src/index.html"
